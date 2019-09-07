@@ -1,0 +1,15 @@
+LEER nivelDeJudador
+
+SI nivelDeJudador < 10 ENTONCES
+    ESCRIBE "Eres nivel Aprendiz"
+
+FIN-SI
+
+SI nivelDeJudador > 10 AND nivelDeJudador < 20 ENTONCES
+
+    ESCRIBE "Eres nivel Acrobata"
+FIN-SI
+
+SI nivelDeJudador > 20 ENTONCES
+
+    ESCRIBE "Eres nivel ninja"

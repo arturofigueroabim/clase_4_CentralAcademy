@@ -1,0 +1,16 @@
+LEER nombreDeUsuario
+
+LEER contraseña
+
+nombreRegistrado = "Arturo"
+constrasenaRegistrada = "arturo123"
+
+SI nombreDeUsuario === nombreRegistrado ENTONCES
+
+        SI  constrasenaRegistrada === contraseña ENTONCES
+
+            ESCRIBE "Abriendo refrigerador"
+        FIN-SI
+
+SINO 
+    ESCRIBE "Lo siento Usuario o contraseña incorrecta"

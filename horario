@@ -1,0 +1,22 @@
+LEER dia
+
+SI dia === "LUNES" OR dia === "MIERCOLES" ENTONCES
+
+    ESCRBIR "Te toca Historia"
+
+FIN-SI
+
+SI dia ===  "MARTES" ENTONCES   
+
+    ESCRIBIR "Te toca Natacion"
+
+FIN-SI
+
+SI dia === "JUEVES" ENTONCES
+
+    ESCRIBIR "Te toca Esgrima"
+
+SI dia === "VIERNES" OR dia === "SABADO" OR dia === "DOMINGO" ENTONCES
+
+    ESCRIBIR "Hoy descansas" 
+FIN-SI

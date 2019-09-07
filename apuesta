@@ -1,0 +1,16 @@
+LEER dado1
+
+LEER dado2
+
+LEER dado3
+
+SI dado1 === dado2 OR dado1 === dado3 OR dado2 === dado3 ENTONCES 
+
+    ESCRIBRE "Felicidades Ganaste"
+
+SINO
+
+    ESCRIBRE "PERDEDOR"
+
+FIN-SI
+

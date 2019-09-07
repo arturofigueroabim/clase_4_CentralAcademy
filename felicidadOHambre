@@ -1,0 +1,13 @@
+
+Leer TienesHambre_Si_Escribe_1_No_Escribe_0
+
+SI TienesHambre_Si_Escribe_1_No_Escribe_0 === 1 ENTONCES 
+
+        ESCRIBE "Estas Triste :("
+
+SINO 
+
+    ESCRIBE "Estas Feliz"
+
+
+
